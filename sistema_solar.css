@@ -1,0 +1,113 @@
+body{color:aliceblue; overflow:hidden; 
+   background:radial-gradient(rgb(54, 26, 2),rgb(5, 5, 5));justify-content: center
+  ;justify-items: center;
+
+    
+   }
+   h1{text-align: center;}
+   ul{list-style-type: none; text-align: center;}
+
+.sistema_solar{ position:relative; top:250px;left: 100px ;width: 50px; height: 50px; align-content: center;
+;align-items: center;z-index:-1; }
+
+
+
+.sol{width: 60px; height: 60px; position:absolute; bottom: 50px; left: 50px; transform: translate(-50%, 50%)}
+.mercurio{width: 17px; position: relative ;top: 43%; left:42%;}
+.venus{width: 25px}
+.tierra{width: 30px}
+.marte{width: 20px}
+.jupiter{width: 80px}
+.saturno{width:70px}
+.urano{width: 40px}
+.neptuno{width: 45px}
+.pluton{width: 10px}
+
+.otro_planeta{width:35px}
+
+.orbita{position: absolute; top:20px; left: 500px ;transform: translate(-50%, -50%);}
+ 
+ .planeta{position:absolute; top:20px; left:100px; transform-origin:center;}
+ 
+ .orbita.mercurio{width: 0px; height: 0px; position:absolute; top:-50px;left: -40px}
+ 
+ .orbita.venus{width: 750px; height: 250px; position:absolute; top:100px; left:300px}
+ 
+ .orbita.tierra{width: 800px; height: 200px;position: absolute; top:10px; left:400px}
+ 
+ .orbita.marte{width: 830px; height: 330px;position:absolute; top:100px; left:400px}
+ 
+ .orbita.jupiter{width: 50px; height: 50px; z-index:-1; top: 0px; position: absolute; left: 10px; right:900px}
+ 
+ .orbita.saturno{width: 700px; height: 700px; z-index:-1;top: 50px ;position:absolute; left:300px; right: 900px }
+ 
+ .orbita.urano{width: 690px; height: 690px;position: absolute; top: 70px;left: 200px}
+ 
+ .orbita.neptuno{width: 700px; height: 700px; position:absolute; top:70px; left: 200px}
+ 
+ .orbita.pluton{width: 700px; height: 700px; position: absolute; left: 200px}
+ 
+ .orbita.otro_planeta{width:700px;height: 700px ;position:absolute; right:800px;z-index:-1}
+ 
+ 
+ .planeta.mercurio{animation: orbita-mercurio 3s linear infinite}
+ 
+ .planeta.venus{animation: orbita-venus 5s linear infinite}
+ 
+ .planeta.tierra{animation: orbita-tierra 8s linear infinite}
+ 
+ .planeta.marte{animation: orbita-marte 12s linear infinite}
+ 
+ .planeta.jupiter{animation: orbita-jupiter 25s linear infinite}
+ 
+ .planeta.saturno{animation: orbita-saturno 33s linear infinite}
+ 
+ .planeta.urano{animation: orbita-urano 35s linear infinite}
+ 
+ .planeta.neptuno{animation: orbita-neptuno 38s linear infinite}
+ 
+ .planeta.pluton{animation: orbita-pluton 70s linear infinite}
+ 
+ .planeta.otro_planeta{animation: orbita-otro_planeta 70s linear infinite}
+ 
+ @keyframes orbita-mercurio {from {transform: rotate(0deg) translateX(90px) rotate(0deg)} 
+ 
+ to {transform: rotate(360deg) translateX(90px) rotate(-360deg)}}
+ 
+ @keyframes orbita-venus {from {transform: rotate(0deg) translateX(120px) rotate(0deg)} 
+ 
+ to {transform: rotate(360deg) translateX(120px) rotate(-360deg)}}
+ 
+ @keyframes orbita-tierra {from {transform: rotate(0deg) translateX(160px) rotate(0deg)} 
+ 
+ to {transform: rotate(360deg) translateX(160px) rotate(-360deg)}}
+ 
+ @keyframes orbita-marte {from {transform: rotate(0deg) translateX(180px) rotate(0deg)} 
+ 
+ to {transform: rotate(360deg) translateX(180px) rotate(-360deg)}}
+ 
+ @keyframes orbita-jupiter {from {transform: rotate(0deg) translateX(350px) rotate(0deg)} 
+ 
+ to {transform: rotate(360deg) translateX(350px) rotate(-360deg)}}
+ 
+ @keyframes orbita-saturno {from {transform: rotate(0deg) translateX(370px) rotate(0deg)} 
+ 
+ to {transform: rotate(360deg) translateX(370px) rotate(-360deg)}}
+ 
+ @keyframes orbita-urano {from {transform: rotate(0deg) translateX(500px) rotate(0deg)} 
+ 
+ to {transform: rotate(360deg) translateX(500px) rotate(-360deg)}}
+ 
+ @keyframes orbita-neptuno {from {transform: rotate(0deg) translateX(520px) rotate(0deg)} 
+ 
+ to {transform: rotate(360deg) translateX(520px) rotate(-360deg)}}
+ 
+ @keyframes orbita-pluton {from {transform: rotate(0deg) translateX(550px) rotate(0deg)} 
+ 
+ to {transform: rotate(360deg) translateX(550px) rotate(-360deg)}}
+ 
+ @keyframes orbita-otro_planeta {from {transform: rotate(0deg) translateX(900px) rotate(0deg)} 
+ 
+ to {transform: rotate(360deg) translateX(900px) rotate(-360deg)}}
+
+ .autor{text-align:end; position:relative; top: 400px}

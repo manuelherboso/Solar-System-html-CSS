@@ -1,0 +1,23 @@
+@keyframes luna {0% {transform:translate(-30px, 30px) scale(0.9); box-shadow: none;}
+                   50% {transform:translate(0px, 0px) scale(1.02); 
+                    box-shadow: 0 0 10px  rgb(150, 201, 245), 0 80px 8px srgb rgb(228, 164, 164);}
+                    100%{transform:translate(30px, -30px) scale(0.9); box-shadow: none;}}
+
+html {box-sizing: border-box;}
+
+html, body{height: 100%;}
+
+body {display:flex;
+justify-content: center;
+align-items: center;
+background-image: linear-gradient(30deg rgb(7, 7, 124)  black);overflow: hidden;
+}
+
+.luna{background-image: linear-gradient(30deg rgb(9, 9, 59) rgb(29, 1, 1));
+width:220px; height:220px;
+border-radius: 50%;
+position:relative}
+
+.luna::before{content:""; background-color: whitesmoke; position:absolute;
+display:block; height:100%; width:100%; border-radius: 50%; z-index:-1;
+animation: 4s cresent linear infinite alternate}

@@ -1,0 +1,16 @@
+
+
+h1{text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 60px; top:2200}
+
+.active{background-color: rgb(2, 2, 49); padding: 15px}
+
+ul{list-style-type: none; text-align: center;}
+
+.planetas_enanos{position: relative;  left: 350px;}
+
+li{float:inline-start; padding: 10px; font-size: 30px; border:black; background-color:darkblue; color:blanchedalmond;border-bottom: darkgreen;}
+
+a{color:aliceblue}
+
+.autor{text-align:end; position:relative; top: 400px}
+
