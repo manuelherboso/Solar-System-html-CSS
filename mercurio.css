@@ -1,14 +1,6 @@
-body{background: linear-gradient(to right, rgb(0, 3, 9), rgb(24, 2, 82)); 
+body{background-color: black; 
     color:aliceblue;overflow: hidden;}
 
-h1{text-align: center; font-family: Arial, Helvetica, sans-serif; 
-    font-size: 60px;}
-
-ul{list-style-type: none;}
-
-li{float:inline-start; padding: 10px; font-size: 30px; border:black; background-color:darkblue; color:blanchedalmond; border-bottom: darkgreen;}
-
-a{color:aliceblue}
 
 img{width: 200px; opacity: 1;
     animation-name: opacidad;
@@ -16,5 +8,59 @@ img{width: 200px; opacity: 1;
     animation-timing-function:linear;
     animation-iteration-count:infinite;
     animation-direction: alternate;}
+
+
+
+    .contenido{position:fixed;top:300px; left: 100px; background:none;}
+    .desc{font-size: 15px; background: none;}
     
-    @keyframes opacidad { from{opacity:0; width: 50px  ; top:0} to {opacity: 1;width: 1000px; right: 1500px}}
+    .orbit{font-size: 15px; background: none;}
+    .elemorbit{font-size: 15px; background: none;}
+    .elod{font-size: 15px; background: none;}
+    .cf{font-size: 15px; background: none;}
+    .ca{font-size: 15px; background: none;}
+    .comp{font-size: 15px; background: none;}
+    .satelites{font-size: 15px; background: none; position:absolute; top:-14px; left: 1030px; width:700px }
+
+body{background-color: black;
+    animation-name: sky;
+    animation-duration: 15s;
+    animation-timing-function:cubic-bezier(0.01, 0.01, 0.05, 1.94);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;}
+    
+    @keyframes opacidad { from{opacity:0; width: 50px;  top:0} to {opacity: 1;width: 1000px; right: 1500px;}}
+
+    @keyframes sky {from {background-color: rgb(122, 121, 49)} to {background-color: rgb(41, 18, 4) ;}}
+    
+    li{list-style: none;}
+    
+
+    a:hover{background-color: rgb(255, 166, 0);}
+
+    a:hover >table {display:block}
+
+    .desc:hover table{display:block; background-color: rgba(8, 8, 8, 0.411);position: absolute; top:80px; left: 400px; width: 400px}
+    .desc table{display:none}
+    
+    .elemorbit:hover table{display:block; background-color: rgba(8, 8, 8, 0.411); position: absolute; top:80px; left: 400px; width: 400px}
+    .elemorbit table{display:none ;background-color: rgba(0, 0, 0, 0.363);}
+
+    .elod:hover table{display: block; background-color: rgba(0, 0, 0, 0.363); position: absolute; top: 80px; left: 300px; width: 350px}
+    .elod table{display: none}
+
+    .cf:hover table{display: block ;background-color: rgba(0, 0, 0, 0.363);position: absolute; top: 60px; left: 300px; width: 300px; font-size:12px}
+    .cf table{display: none}
+
+    .ca:hover table{display: block; background-color: rgba(0, 0, 0, 0.363); position: absolute; top: 60px; left: 300px; width: 300px}
+    .ca table{display: none}
+
+    .comp:hover table{display: block;background-color: rgba(0, 0, 0, 0.363);position: absolute; top: 60px; left: 300px; width: 300px}
+    .comp table{display: none}
+
+    .orbit:hover table{display: block;background-color: rgba(0, 0, 0, 0.363);position: absolute; top: 60px; left: 300px; width: 400px}
+    .orbit table{display: none}
+    
+    
+
+    

@@ -16,5 +16,26 @@ img{width: 200px; opacity: 1;
     animation-timing-function: linear;
     animation-iteration-count:infinite;
     animation-direction:alternate; }
+
+    .datos_del_sol{position:fixed;top:250px; left: 10px;}
     
     @keyframes sol { from{opacity:0; width: 200px  ; top:0} to {opacity: 1;width: 1500px; right: 1500px}}
+
+    .datos_derivados:hover table{display: block; position: absolute;top:30px; left: 500px; width:500px;background-color: rgba(255, 0, 0, 0.219);}
+    .datos_derivados table{display:none}
+
+    .temperatura:hover table{display: block; position: absolute;top:30px; left: 500px; width:500px;background-color: rgba(255, 0, 0, 0.253);}
+    .temperatura table{display:none}
+    
+    .caracteristicas:hover table{display: block; position: absolute;top:30px; left: 500px; width:500px;background-color: rgba(255, 0, 0, 0.411);}
+    .caracteristicas table{display:none}
+
+    .rotacion:hover table{display: block; position: absolute;top:30px; left: 500px; width:500px;background-color: rgba(255, 0, 179, 0.164);}
+    .rotacion table{display:none}
+
+    .caracteristicas_orbitales:hover table{display: block; position: absolute;top:60px; left: 500px; width:500px;background-color:rgba(255, 0, 0, 0.253);}
+    .caracteristicas_orbitales table{display:none}
+
+    .composicion:hover table{display: block; position: absolute;top:70px; left: 700px; width:500px;background-color: rgba(255, 0, 179, 0.164);}
+    .composicion table{display:none}
+

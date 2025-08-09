@@ -8,9 +8,9 @@ ul{list-style-type: none; text-align: center;}
 
 .planetas_enanos{position: relative;  left: 350px;}
 
-li{float:inline-start; padding: 10px; font-size: 30px; border:black; background-color:darkblue; color:blanchedalmond;border-bottom: darkgreen;}
+li{float:inline-start; padding: 10px; font-size: 30px; border:black; background-color:darkblue; color:blanchedalmond;}
 
 a{color:aliceblue}
 
-.autor{text-align:end; position:relative; top: 400px}
+.autor{text-align:center; position:fixed; top: 660px; left: 1100px}
 

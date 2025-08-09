@@ -1,14 +1,6 @@
 body{background-color:black; color:aliceblue;overflow: hidden;}
 
-h1{text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 60px;}
-
-ul{list-style-type: none;}
-
-li{float:inline-start; padding: 10px; font-size: 30px; border:black; background-color:darkblue; color:blanchedalmond; border-bottom: darkgreen;}
-
-a{color:aliceblue}
-
-.contenido{position:fixed; top: 300px; left: 40px}
+.contenido{position:fixed; top: 250px; left: 40px; font-size: 12px;}
 
 img{position:relative;z-index:-1 ;width: 100px; top: 50px; animation-name: pluton; 
     animation-duration: 20s ; animation-iteration-count: infinite; 
@@ -16,3 +8,26 @@ img{position:relative;z-index:-1 ;width: 100px; top: 50px; animation-name: pluto
 }
 
 @keyframes pluton{from{width: 5px;right: 300px; top: 50px; opacity: 0;} to {width:500px;right: -500px; top: 80px; opacity:1}}
+
+.introduccion{color: rgb(5, 5, 247);}
+
+.desc:hover table{display:block; position: absolute; top: 70px; left: 700px; width: 290px;background-color: rgba(23, 2, 37, 0.486);}
+.desc table{display:none}
+
+.caracteristicas_fisicas:hover table{display:block; position: absolute; top: 50px; left: 700px;background-color: rgba(23, 2, 37, 0.486); width:300px}
+.caracteristicas_fisicas table{display:none}
+
+.caracteristicas_atmosfericas:hover table{display:block; position: absolute; top: 50px; left: 700px; width: 280px;background-color: rgba(23, 2, 37, 0.486);}
+.caracteristicas_atmosfericas table{display:none}
+
+.elementos_orbitales:hover table{display: block; position: absolute; top: 150px; left: 300px;background-color: rgba(23, 2, 37, 0.486); }
+.elementos_orbitales{display: none}
+
+.elementos_orbitales_derivados_satelites:hover table{display:block;position:absolute;top: 50px; left: 700px;background-color: rgba(23, 2, 37, 0.486); }
+.elementos_orbitales_derivados_satelites table{display:none}
+
+.satelites:hover table{display: block; position: absolute; top: 50px; left: 500px;background-color: rgba(23, 2, 37, 0.486);}
+.satelites table{display: none}
+
+.orbita:hover table{display: block; position: absolute; top: 100px; left: 500px; background-color: rgba(63, 4, 102, 0.247); width:400px }
+.orbita table{display: none}

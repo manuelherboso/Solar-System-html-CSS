@@ -10,3 +10,27 @@ body{background-color: black; color:aliceblue;overflow:hidden}
     animation-direction: alternate;
     animation-iteration-count:infinite;
 }
+
+
+table,th, tr, td{border: 1px darkblue solid;}
+
+.datos_jupiter{position: absolute; top: 270px; left: 80px; z-index: 1; font-size: 20px; color: darkblue;}
+.planetas_enanos{z-index: 1;}
+
+.desc:hover table{display:block; position: absolute; top:10px; left:500px; width:350px; font-size:14px}
+.desc table{display:none; font-size: 30px;}
+
+.elementos_orbitales:hover table{display:block; position: absolute; top:10px; left:500px; width:270px; font-size:14px}
+.elementos_orbitales table{display:none}
+
+.elementos_orbitales_derivados:hover table{display:block; position: absolute; top: 20px; left:500px; width:270px; font-size:14px}
+.elementos_orbitales_derivados table{display:none}
+
+.caracteristicas_fisicas:hover table{display:block; position: absolute; top: 20px; left:500px; width:350px; font-size:14px}
+.caracteristicas_fisicas table{display:none}
+
+.caracteristicas_atmosfericas:hover table{display:block; position: absolute; top: 20px; left:500px; width:350px; font-size:14px}
+.caracteristicas_atmosfericas table{display:none}
+
+.satelites:hover table{display:block; position: absolute; top: 20px; left:500px; width:550px; font-size:14px}
+.satelites table{display:none}

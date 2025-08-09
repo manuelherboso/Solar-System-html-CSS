@@ -10,6 +10,28 @@ img{width: 100px;
         animation-direction: alternate;}
         
         @keyframes tierra{from{width: 100px; opacity: 0} to{width:1000px; opacity:1}}
+.contenido{position:fixed; top:280px; left: 100px; color: rgb(226, 225, 136);}
+td, tr{font-size: 12px}
+.caracteristicas_atmosfericas{top:-10px}
+.composicion_atmosferica, th, tr, td{border: solid 1px, rgb(236, 236, 234) collapse;padding:1px}
+.elementos_orbitales_derivados_satelites{position:absolute; top: 0px; left:650px; width:400px}
+p{font-size: 12px}
 
-.contenido{position:fixed; top:300px; left: 100px}
+.caracteristicas_fisicas:hover table{display: block; width: 500px; position: absolute;top:5px; left:400px;background-color: rgba(137, 137, 206, 0.377);}
+.caracteristicas_fisicas table{display: none}
+
+.caracteristicas_atmosfericas:hover table{display: block; width: 500px;; position: absolute;top:5px; left:400px;background-color: rgba(137, 137, 206, 0.377); }
+.caracteristicas_atmosfericas table{display: none}
+
+.composicion_atmosferica:hover table{display: block; width: 500px; position: absolute;top:0; left:400px; background-color: rgba(137, 137, 206, 0.377);}
+.composicion_atmosferica table{display: none}
+
+.elementos_orbitales:hover table{display: block; width: 500px; position: absolute;top:5px; left:400px;rgba(137, 137, 206, 0.377);background-color: rgba(137, 137, 206, 0.377); }
+.elementos_orbitales table{display: none}
+
+.elementos_orbitales_derivados:hover table{display: block; width: 500px; position: absolute;top:5px; left:400px;background-color: rgba(137, 137, 206, 0.377);}
+.elementos_orbitales_derivados table{display: none}
+
+.satelites:hover p{display: block; width: 250px;}
+.satelites p{display: none}
 

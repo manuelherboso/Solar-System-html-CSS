@@ -1,0 +1,4 @@
+p{margin: 0; width: 100%; font-size: 26px; }
+
+li .descubridor li:hover p {max-height: 300px;
+transition: .3s all ease-in;}

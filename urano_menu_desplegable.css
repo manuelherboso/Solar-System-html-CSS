@@ -1,0 +1,10 @@
+ul{padding: 0px; margin: 0px; font-size: 15px; list-style:none;} 
+
+li{display:inline}
+
+.elod:hover table{display:block; font-size:30px}
+
+.elod table{display:none; position: absolute; left:10px}
+
+.desc:hover table{display: block}
+.desc table{display:none}

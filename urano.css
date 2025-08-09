@@ -2,7 +2,7 @@ body{background-color: black; color:aliceblue;overflow: hidden;
 animation-name: fondo;
 animation-duration: 20s;
 animation-iteration-count: infinite;
-animation-timing-function: linear;
+animation-timing-function: linear; z-index: -1;
 }
 
 @keyframes fondo{from{background-color: rgb(1, 1, 20);} to{background-color: black;}}
@@ -17,4 +17,48 @@ animation-timing-function:cubic-bezier(0.4, 0.84, 0.44, 0.5);
 animation-direction: alternate;}
 
 @keyframes urano{from{width: 100px; opacity: 0} to{width:1000px; opacity:1}}
+
+.lista{float: left; font-size: 15px ;background: none; text-align: left; color:white;list-style-type: none; position:absolute; top: 260px; left: 10px}
+.desc{font-size: 15px; background: none; position:absolute; top: -15px; left: 10px}
+.elem{font-size: 15px; background: none; position:absolute; top: -30px; left: 160px; z-index: 1; width: 120px}
+.elod{font-size: 15px; background: none; position:absolute; top: -30px; left: 360px; z-index: 1; width: 182px}
+.cf{font-size: 15px; background: none; position:absolute; top: -30px; left: 620px; z-index: 1;width: 135px}
+.ca{font-size: 15px; background: none; position:absolute; top: -30px; left: 790px; z-index: 1; width: 180px}
+.comp{font-size: 15px; background: none; position:absolute; top: -30px; left: 1000px; z-index: 1; width: 160px}
+.orbit{font-size: 15px; background: none; position:absolute; top: -30px; left: 1200px; z-index: 1}
+
+.desc:hover{background-color: rgba(0, 0, 255, 0.329);position:absolute;}
+.desc:hover table{display:block ;background-color: rgba(10, 40, 209, 0.568);font-size:15px; position: absolute; top: 80px; left: 500px; width:500px }
+.desc table{display: none}
+
+.elem:hover{background-color: rgba(0, 0, 255, 0.329);}
+.elem:hover table{display:block ;background-color: rgba(10, 40, 209, 0.568);font-size:15px; position: absolute; top: 80px; left: 250px; width: 500px}
+.elem table{display: none}
+
+.elod:hover{background-color: rgba(0, 0, 255, 0.329);}
+.elod:hover table{display:block ;background-color: rgba(10, 40, 209, 0.568);font-size:15px; position: absolute; top: 80px; left: 100px; width: 500px}
+.elod table{display: none}
+
+.cf:hover{background-color: rgba(0, 0, 255, 0.329);}
+.cf:hover table{display:block ;background-color: rgba(10, 40, 209, 0.568);font-size:15px; position: absolute; top: 100px; left: -100px; width: 500px}
+.cf table{display: none}
+
+.ca:hover{background-color: rgba(0, 0, 255, 0.329);}
+.ca:hover table{display:block ;background-color: rgba(10, 40, 209, 0.568);font-size:15px; position: absolute; top: 80px; left: -200px}
+.ca table{display: none}
+
+.comp:hover{background-color: rgba(0, 0, 255, 0.329);}
+.comp:hover table{display:block ;background-color: rgba(10, 40, 209, 0.568);font-size:15px; position: absolute; top: 80px; left: -400px}
+.comp table{display: none}
+
+.orbit:hover{background-color: rgba(0, 0, 255, 0.329);}
+.orbit:hover table{display:block ;background-color: rgba(10, 40, 209, 0.568);font-size:15px; position: absolute; top: 80px; left: -700px}
+.orbit table{display: none}
+
+table{z-index: 1}
+
+
+
+
+
 

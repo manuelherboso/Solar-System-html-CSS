@@ -1,12 +1,35 @@
 body{background-color: black; color:aliceblue;overflow: hidden;}
 
-h1{text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 60px;}
+/*h1{text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 60px;}*/
 
-ul{list-style-type: none;}
+/*ul{list-style-type: none;}
 
-li{float:inline-start; padding: 10px; font-size: 30px; border:black; background-color:darkblue; color:blanchedalmond; border-bottom: darkgreen;}
+/*li{float:inline-start; padding: 10px; font-size: 30px; border:black; background-color:darkblue; color:blanchedalmond; border-bottom: darkgreen;}*/
 
 a{color:aliceblue}
+
+/*.contenido{position:fixed;top:300px; left: 100px; background:none;}*/
+.lista{float:initial;text-align: left; color:white;list-style-type: none;position:fixed; top: 260px; left: 10px; list-style:none;}
+.desc{font-size: 12px ;background: none; position:fixed; top: 270px; left: 10px;}
+.elem{font-size: 12px; background: none; position:fixed; top: 260px; left: 170px}
+.elod{font-size: 12px; background: none; position:fixed; top: 260px; left: 360px}
+.cf{font-size: 12px; background: none; position:fixed; top: 260px; left: 630px}
+.ca{font-size: 12px; background: none; position:fixed; top: 260px; left: 840px}
+.comp{font-size: 12px; background: none; position:fixed; top: 260px; left: 1100px}
+.orbit{font-size: 12px; background: none;position:fixed; top: 300px; left: 400px}
+.satelit{font-size: 12px; background: none;position:fixed; top: 300px; left: 630px}
+.desplegable_desc{position: fixed;top: 320px; left: 15px}
+
+#header {margin:auto; width: 500px;
+}
+
+.lista li a:hover{background-color: blue;}
+
+.lista > ul {float:left}
+
+.lista ul li{display:none}
+
+.lista li:hover > table{display:block}
 
 img{position:relative; top: 50px;width: 100px; opacity: 1;
     animation-name: neptuno;
@@ -16,4 +39,27 @@ img{position:relative; top: 50px;width: 100px; opacity: 1;
     animation-direction: alternate;}
     
     @keyframes neptuno{from{width: 100px; opacity: 0} to{width:1000px; opacity:1}}
-    
+
+table{font-size: 12px}
+
+.desc:hover table{display: block; background-color: rgba(0, 0, 255, 0.185) ;position:absolute; top: 150px; left:500px; width:500px}
+.desc table{display:none; width: 200px;}
+
+.elem:hover table{display: block;background-color: rgba(0, 0, 255, 0.185) ;position:absolute; top: 150px; left:300px; width:500px}
+.elem table{display: none}
+
+.elod:hover table{display: block;background-color: rgba(0, 0, 255, 0.185) ;position:absolute; top: 150px; left:100px; width:500px}
+.elod table{display: none}
+
+.cf:hover table{display: block;background-color: rgba(0, 0, 255, 0.185) ;position:absolute; top: 100px; left:-50px; width:400px }
+.cf table{display: none}
+
+
+.ca:hover table{display: block;background-color: rgba(0, 0, 255, 0.185) ;position:absolute; top: 150px; left:-300px; width:500px }
+.ca table{display: none}
+
+.comp:hover table{display: block; background-color: rgba(0, 0, 255, 0.185) ;position:absolute; top: 150px; right:300px; width:500px}
+.comp table{display: none}
+
+.orbit:hover table{display: block;background-color: rgba(0, 0, 255, 0.185) ;position:absolute; top: 80px; left:100px; width:500px }
+.orbit table{display:none}

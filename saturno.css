@@ -8,5 +8,27 @@ img{position:relative; top: 50px;width: 100px; opacity: 1;
     animation-direction: alternate;}
     
     @keyframes saturno{from{width: 100px; opacity: 0} to{width:1000px; opacity:1}}
+
+    .datos_de_saturno{position:absolute; top: 270px; left:100px; font-size: 12px; color: rgb(149, 149, 216);}
+    h4{color: rgb(149, 149, 216)}
+    .características_físicas{position: absolute; top: 0px; left:400px; width: 200px;}
+    .características_atmosféricas{position: absolute; top: 0; left: 600px; width: 200px}
+    .satelites{position: absolute; top:0; left: 800px; width: 150px}
+
+    .descubrimiento:hover table{display: block}
+    .descubrimiento table{display: none}
+
+    .elementos_orbitales:hover table{display: block}
+    .elementos_orbitales table{display: none}
+
+    .elementos_orbitales_dev:hover table{display: block}
+    .elementos_orbitales_dev table{display: none}
     
-    .autor{text-align:end; position:relative; top: 400px}
+    .características_físicas:hover table{display: block}
+    .características_físicas table{display: none}
+
+    .características_atmosféricas:hover table{display: block}
+    .características_atmosféricas table{display: none}
+    
+    .satelites:hover table{display:block}
+    .satelites table{display:none}

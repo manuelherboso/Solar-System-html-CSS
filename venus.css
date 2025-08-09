@@ -15,5 +15,25 @@ img{width: 200px; opacity: 1;
     
     @keyframes opacidad { from{opacity:0; width: 50px  ; top:0} to {opacity: 1;width: 1000px; right: 1500px}}
 
-    .contenido{position:absolute;top:300px ;left: 100px} 
+    .contenido{position:absolute;top:270px ;left: 50px; font-size: 14px ;} 
+
+    .texto{text-align: center;width: 1000px; position:absolute; top:-15px}
+   .descubrimiento:hover table{display: block ;background-color: rgba(255, 51, 0, 0.329); position:absolute;top: 50px; left:600px;width:500px}
+   .descubrimiento table{display:none}
+    
+    .caracteristicas_fisicas:hover table{display: block ;background-color: rgba(255, 51, 0, 0.329); position:absolute;top: 50px; left:600px;width:500px}
+    .caracteristicas_fisicas table{display:none}
+
+    .atmosferaVenus:hover .tabla{display: block ;background-color: rgba(255, 51, 0, 0.329); position: absolute; top:30px; left: 600px; width: 550px;}
+    .atmosferaVenus .tabla{display:none}
+
+    .elememtosorbitales:hover table{display: block ;background-color: rgba(255, 51, 0, 0.329); position:absolute;top: 50px; left:600px;width:500px}
+    .elememtosorbitales table{display:none}
+
+    .elementos_orb_dev:hover table{display: block ;background-color: rgba(255, 51, 0, 0.329); position:absolute;top: 50px; left:600px;width:500px}
+    .elementos_orb_dev table{display:none}
+
+    aside{position:absolute; top:450px; left:50px}
+
+
     

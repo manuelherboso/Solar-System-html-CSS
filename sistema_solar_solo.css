@@ -106,4 +106,4 @@ body{color:aliceblue; overflow:hidden;
  to {transform: rotate(360deg) translateX(550px) rotate(-360deg)}}
 
 
- .autor{text-align: center; position:relative; top: 300px; left: 1200px}
+ .autor{text-align:justify; position:fixed; top: 650px; left: 1100px;}

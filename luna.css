@@ -1,10 +1,11 @@
-body{background-color: black; color:white }
+body{background: linear-gradient(to right, rgb(0, 3, 9), rgb(24, 2, 82)); color:white }
 h1{text-align: center;}
 ul{list-style-type: none; font-size: large;}
 li{float:inline-start; padding: 10px; font-size: 20px;}
 
 .luna{width: 200px}
 .luna_nueva{width:220px}
+a{color:white}
 
 
 

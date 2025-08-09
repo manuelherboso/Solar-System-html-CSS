@@ -10,7 +10,12 @@ animation-direction: alternate;}
 
 @keyframes opacidad { from{opacity:0; width: 50px  ; top:0} to {opacity: 1;width: 1000px; right: 1500px}}
 
-.texto{position:absolute;top:300px ;left: 100px}
+p{position:absolute;top:260px ;left: 200px; font-size: 14px; font-weight: bold;}
+/*.informacion_y_datos{position:absolute;top:0px ;left: 100px; font-size: 25px;}
+.Características_físicas{position:absolute;top:30px ;left: 100px;font-size: 20px ;display:flexbox}
+.satelites{position:absolute;top:320px ;left: 100px;font-size: 20px ;display:flexbox}*/
+
+.informacion_y_datos{position: absolute; top: 300px; left:100px; font-size: 20px; font-size: 12px;}
 
 body{background-color: black;
 animation-name:firmamento;
@@ -20,3 +25,29 @@ animation-iteration-count: infinite;
 animation-direction: alternate;}
 
 @keyframes firmamento {from{background-color:rgb(238, 172, 95);} to {background-color:black}}
+
+.informacion_y_datos{color:rgb(17, 196, 228); z-index: 1;}
+
+.descubrimiento:hover table{display: block; background-color: rgba(0, 0, 255, 0.185) ;position:absolute; top: 50px; left:500px; width:500px}
+.descubrimiento table{display:none;}
+
+.caracteristicas_fisicas:hover table{display: block; background-color: rgba(0, 0, 255, 0.185) ;position:absolute; top: 50px; left:500px; width:500px}
+.caracteristicas_fisicas table{display:none;}
+
+.elementos_orbitales:hover table{display: block; background-color: rgba(0, 0, 255, 0.185) ;position:absolute; top: 50px; left:500px; width:500px}
+.elementos_orbitales table{display:none;}
+
+.elementos_orbitales_derivados:hover table{display: block; background-color: rgba(0, 0, 255, 0.185) ;position:absolute; top: 50px; left:500px; width:500px}
+.elementos_orbitales_derivados table{display:none;}
+
+.caracteristicas_atmosfericas:hover table{display: block; background-color: rgba(0, 0, 255, 0.185) ;position:absolute; top: 50px; left:500px; width:200px;}
+.caracteristicas_atmosfericas table{display:none;}
+
+.composicion_atmosferica:hover table{display: block; background-color: rgba(0, 0, 255, 0.185); position: absolute;top: 10px; left:900px; width:200px}
+.composicion_atmosferica table{display:none;}
+
+.satelites:hover table{display: block; background-color: rgba(0, 0, 255, 0.185) ;position:absolute; top: 20px; left:500px; width:500px}
+.satelites table{display:none;}
+
+.orbita:hover table{display: block; background-color: rgba(0, 0, 255, 0.185) ;position:absolute; top: 20px; left:500px; width:500px}
+.orbita table{display:none;}
